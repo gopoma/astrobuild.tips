@@ -1,4 +1,6 @@
 ---
+import HeaderTop from "../components/HeaderTop";
+
 export interface Props {
 	title: string;
 }
@@ -16,6 +18,7 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
+		<HeaderTop client:load />
 		<slot />
 	</body>
 </html>
