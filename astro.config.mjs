@@ -9,6 +9,6 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "http://localhost:3000",
+  site: "https://astrobuild-tips-58z.pages.dev",
   integrations: [tailwind(), mdx(), react(), vue(), svelte(), sitemap()]
 });

@@ -135,3 +135,7 @@ Finalmente:
 ```bash
 npm run build
 ```
+
+### Desplegar en Cloudflare Pages
+
+**Cloudflare Pages:** https://pages.cloudflare.com/
