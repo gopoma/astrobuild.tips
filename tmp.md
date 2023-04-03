@@ -69,7 +69,7 @@ npx astro add mdx
 
 ### Creando template de nuestra página de entrada del blog
 
-API de Fake Images: `https://api.lorem.space/image/fashion?w=640&h=480&r=3027`
+API de Fake Images: https://api.lorem.space/image/fashion?w=640&h=480&r=3027
 
 ### Componentes en React: header
 
@@ -121,14 +121,14 @@ Estos son los valores que puede tener la directiva client:
 
 ### Integraciones SEO, RSS, Sitemap
 
-template de `<head>` para el SEO: `https://gist.github.com/gndx/fae954a6b2afdc07afe5441fba234801/`
+template de `<head>` para el SEO: https://gist.github.com/gndx/fae954a6b2afdc07afe5441fba234801/
 
 ```bash
 npm install @astrojs/rss
 npx astro add sitemap
 ```
 
-Generador de íconos para el SEO: `https://en.rakko.tools/tools/69/`
+Generador de íconos para el SEO: https://en.rakko.tools/tools/69/
 
 Finalmente:
 
