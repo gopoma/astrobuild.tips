@@ -9,6 +9,6 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://46eb7ccd.astrobuild-tips-58z.pages.dev",
+  site: "https://astrobuild-tips-58z.pages.dev",
   integrations: [tailwind(), mdx(), react(), vue(), svelte(), sitemap()]
 });
