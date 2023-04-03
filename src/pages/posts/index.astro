@@ -20,7 +20,7 @@ const posts = (await getCollection("tips")).sort(
 				posts.map((post) => (
 					<Card
 						title={ post.data.title }
-						time={ post.data.time }
+						time={ post.data.pubDate }
 						tags={ post.data.tags }
                         slug={ post.slug }
 					/>
